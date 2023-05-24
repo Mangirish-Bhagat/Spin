@@ -6,58 +6,70 @@ import "./homepage.css";
 const HomePage = () => {
 
     return (
-        <div>
-            <ul className="circle">
-                <li>
-                    <div className="text"> 1 </div>
-                </li>
+        <>
+            <div className="homepage">
 
-                <li>
-                    <div className="text"> 1 </div>
-                </li>
+                <div className="header">
+                    <h1> Spin-n-Win</h1>
+                </div>
 
-                <li>
-                    <div className="text"> 1 </div>
-                </li>
+                <ul className="circle">
+                    <li>
+                        <div className="text"> 1 </div>
+                    </li>
 
-                <li>
-                    <div className="text"> 1 </div>
-                </li>
+                    <li>
+                        <div className="text"> 1 </div>
+                    </li>
 
-                <li>
-                    <div className="text"> 1 </div>
-                </li>
+                    <li>
+                        <div className="text"> 1 </div>
+                    </li>
 
-                <li>
-                    <div className="text"> 1 </div>
-                </li>
+                    <li>
+                        <div className="text"> 1 </div>
+                    </li>
 
-                <li>
-                    <div className="text"> 1 </div>
-                </li>
+                    <li>
+                        <div className="text"> 1 </div>
+                    </li>
 
-                <li>
-                    <div className="text"> 1 </div>
-                </li>
+                    <li>
+                        <div className="text"> 1 </div>
+                    </li>
 
-                <li>
-                    <div className="text"> 1 </div>
-                </li>
+                    <li>
+                        <div className="text"> 1 </div>
+                    </li>
 
-                <li>
-                    <div className="text"> 2 </div>
-                </li>
+                    <li>
+                        <div className="text"> 1 </div>
+                    </li>
 
-                <li>
-                    <div className="text"> 3 </div>
-                </li>
+                    <li>
+                        <div className="text"> 1 </div>
+                    </li>
 
-                <li>
-                    <div className="text"> 1fyfhgfgh </div>
-                </li>
+                    <li>
+                        <div className="text"> 2 </div>
+                    </li>
 
-            </ul>
-        </div>
+                    <li>
+                        <div className="text"> 3 </div>
+                    </li>
+
+                    <li>
+                        <div className="text"> 1fyfhgfgh </div>
+                    </li>
+
+                </ul>
+                <div className="spin-Btn">
+                    <button className="btn-Text">Spin</button>
+                </div>
+                {/* <div className="spin-btn">Spin</div> */}
+            </div>
+        </>
+
     )
 }
 

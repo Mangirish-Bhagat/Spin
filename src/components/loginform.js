@@ -31,7 +31,7 @@ const LoginForm = () => {
                     onChange={e => setUserName(e.target.value)} />
                 <input type="password" placeholder="password"
                     onChange={e => setPassword(e.target.value)} />
-                <div className="login-btn" onClick={loginFunc}>Login</div>
+                <button className="login-btn" onClick={loginFunc}>Login</button>
             </div>
 
         </div>

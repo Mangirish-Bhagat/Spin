@@ -52,6 +52,18 @@
     left: 5px;
 }
 
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 50px solid red;
+    position: absolute;
+    left: 53%;
+    /* top: -20px; */
+    z-index: 1;
+}
+
 .text {
     color: #000000;
     font-size: 10px;
@@ -91,11 +103,11 @@ li:nth-child(6) .text {
 }
 
 li:nth-child(7) .text {
-    background-color: orange;
+    background-color: greenyellow;
 }
 
 li:nth-child(8) .text {
-    background-color: red;
+    background-color: peru;
 }
 
 li:nth-child(9) .text {
@@ -103,7 +115,7 @@ li:nth-child(9) .text {
 }
 
 li:nth-child(10) .text {
-    background-color: greenyellow;
+    background-color: orange;
 }
 
 li:nth-child(11) .text {
@@ -183,4 +195,18 @@ li {
     width: 50%;
     height: 50%;
     transform-origin: 0% 100%;
+}
+
+.start-rotate {
+    animation: start-rotate 1s linear infinite;
+}
+
+@keyframes start-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.stop-rotate {
+    animation-play-state: paused;
 }
